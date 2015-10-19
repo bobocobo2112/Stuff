@@ -6,12 +6,17 @@
     <p>
         <?php
         $name = "Edgar";
+        $myAge = 16;
 
-        if ($name == "Simon") {
-            print "I know you!";
+        if ($myAge == 16) {
+            print "glasses";
         }
-        else {
-        print "Who are you?";}
+        else if ($myAge = 18){
+        print "Mugs";
+        }
+        else if ($myAge = 21){
+            print "sausage roll";
+        }
         ?>
     </p>
     </body>
