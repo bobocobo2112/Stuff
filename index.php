@@ -2,9 +2,11 @@
 <html>
     <head>
         </head>
-    <body>
+
     <p>
         <?php
+
+        echo $_GET["name"];
         $name = "Edgar";
         $myAge = 16;
 
