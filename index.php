@@ -10,11 +10,12 @@
 
         if ($myAge == 16) {
             print "glasses";
+            echo "sup";
         }
-        else if ($myAge = 18){
+        else if ($myAge == 18){
         print "Mugs";
         }
-        else if ($myAge = 21){
+        else if ($myAge == 21){
             print "sausage roll";
         }
         ?>
